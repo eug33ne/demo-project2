@@ -65,13 +65,7 @@ function App() {
               : `Click to generate account`}
           </button>
         </p>
-        <p>
-          <button disabled={executing} onClick={execute}>
-            {executing
-              ? `Executing...check console for details...`
-              : `Execute helloworld.aleo`}
-          </button>
-        </p>
+       
         <p>
           Edit <code>src/App.jsx</code> and save to test HMR
         </p>
